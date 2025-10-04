@@ -1,0 +1,223 @@
+/* /////////////////////////////////////////////////////////////////////// */
+/* Hero Image */
+
+
+.titles {
+  font-family: 'lora';
+  color: #3B5A3B;
+  font-weight: 100;
+  margin-bottom: 2rem;
+
+}
+
+.hero {
+  background-image: url(../images/HeroImg.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.hero-content button {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #0056b3;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+/* ABOUT US */
+
+
+.aboutus {
+  background-image: url(../images/aboutusimg.png);
+  background-color: #F8F5F1;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus-content h1 {
+  font-family: 'lora';
+  color: #3B5A3B;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.aboutus-content p {
+  font-family: 'Poppins', sans-serif;
+  width: 30%;
+  font-size: 16px;
+  color: #909090;
+  margin-bottom: 2rem;
+}
+
+.aboutus-content button {
+  border: 1px solid #3B5A3B;
+  color: #3B5A3B;
+  border-radius: 10px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.aboutus-content button:hover {
+  background-color: #3B5A3B;
+  color: #ffffff;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+/* TEA VARIANTS */
+
+
+/* App.css */
+.teavariants {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.teavariants-content {
+  margin: 0 auto;
+}
+
+.titles {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #909090;
+}
+
+.tea-containers {
+  display: flex;
+  overflow-x: auto;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, 0.8));
+  /* Add gradient */
+
+}
+
+.tea-container {
+  flex: 0 0 25%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.tea-details {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  color: #F8F5F1;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tea-name {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tea-description {
+  font-size: 0.9rem;
+}
+
+.ourachievements p1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'lora';
+  color: #3B5A3B;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .ourachievements p1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'lora';
+    color: #3B5A3B;
+  }
+}
+.ourachievements {
+  margin-top: 80px;
+}
+
+.ourachievementsbox {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 80px;
+}
+
+.ourachievements img {
+  width: 128px;
+
+}
+
+.ourachievements p {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 31px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #909090;
+}

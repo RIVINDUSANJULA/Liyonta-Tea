@@ -1,0 +1,39 @@
+body {
+  --scalea1: 0.957681;
+  --e-transform-transition-duration1: 1s;
+}
+
+.a1{
+  background-image: linear-gradient(180deg, rgba(4, 23, 26, 0.2) 0%, rgba(3, 10, 10, 0.3) 78%), url('/liyonta_tea_about_us_hero_image.webp');
+  background-position:center;
+  background-size:cover;
+  min-height: 100vh;
+  padding-block-end: 10px;
+  padding-block-start: 10px;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+  border-radius: 1px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sup {
+  transform-origin: center;
+  border-radius: 0px;
+  transition: transform var(--e-transform-transition-duration1) ease-out, 
+              border-radius 700ms ease-out;
+
+}
+
+.sdown {
+  transform: scale(var(--scalea1));
+  transform-origin: center;
+  border-radius: 40px;
+  transition: transform var(--e-transform-transition-duration1) ease-in, border-radius 200ms ease-in;
+  /* transition: border-radius 1s ease-in; transition effect */
+
+}

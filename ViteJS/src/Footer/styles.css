@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 78px;
+    text-align: left;
+}
+
+.footer img {
+    width: 138px;
+}
+
+.footer p {
+    margin-top: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-weight: 600;
+    color: #3B5A3B;
+    font-size: 16px;
+    line-height: 1px;
+}
+.footerhr{
+    margin-top: 62px;
+}
+
+.footerhr p {
+    margin-top: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #3B5A3B;
+    font-size: 16px;
+    line-height: 1px;
+}
+.centered-content {
+    text-align: center;
+  }
+  
+  .footer-address {
+    width: 100%; /* Ensure full width */
+    text-align: left; /* Justify text to the left */
+  }
+  

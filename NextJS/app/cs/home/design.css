@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+
+
+:root {
+  --scale1: 0.907681;
+  --e-transform-transition-duration1: 1s;
+  --scale4u: 1.032;
+  --e-transform-transition-duration4: 1s;
+  overflow-x: hidden;
+}
+
+
+.s1{
+    background-image: linear-gradient(180deg, rgba(1, 61, 69, 0.7) 0%, rgba(7, 28, 29, 0.3) 78%),  url("/rain_droplets_leaves_green_tea_plantation_1-scaled.webp");
+    background-position:center;
+    background-size:cover;
+    min-height: 100vh;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+    border-radius: 1px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .sup {
+    transform-origin: center;
+    border-radius: 0px;
+    transition: transform var(--e-transform-transition-duration1) ease-out, 
+                border-radius 700ms ease-out;
+  
+  }
+  
+  .sdown {
+    transform: scale(var(--scale1));
+    transform-origin: center;
+    border-radius: 40px;
+    transition: transform var(--e-transform-transition-duration1) ease-in, border-radius 200ms ease-in;
+    /* transition: border-radius 1s ease-in; transition effect */
+  
+  }
+
+  .s3{
+    background-image: linear-gradient(180deg, rgba(1, 61, 69, 0.7) 0%, rgba(7, 28, 29, 0.3) 78%), url("/liyonta_tea_homepage_our_history-scaled.webp");
+    background-position:center;
+    background-size:cover;
+  }
+  
+  .s4{
+    background-image: linear-gradient(180deg, rgba(1, 61, 69, 0.7) 0%, rgba(7, 28, 29, 0.3) 78%), url("/liyonta_tea_homepage_decorative_banner.webp");
+    background-position:center;
+    background-size:cover;
+  }
+
+
+  .s4up {
+    transform: scale(var(--scale4u));
+    transform-origin: center;
+    transition: transform var(--e-transform-transition-duration4) ease-out, 
+                border-radius 700ms ease-out;
+  
+  }
+  
+  .s4down {
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform var(--e-transform-transition-duration4) ease-in, border-radius 200ms ease-in;
+    /* transition: border-radius 1s ease-in; transition effect */
+  
+  }
+  
+.slide-number {
+  font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,72 @@
+Just for my personal purpose
+
+
+[]
+Above use for like multiporpose.
+like multi accounts.
+example - user1, user2, user3
+params **
+
+users
+    [id]
+
+when we click the correct user account then it get the details of the pertucular user and show details
+
+
+Layout.tsx
+if we needed to add a different layout for different then make layout.tsx
+BUT the root folder things will be there
+
+
+If Don't want ROOT things
+example
+dashbord
+
+(root)
+    layout.tsx
+    page.tsx            -- PRIMARY PAGE - SHOW WHEN LOAD
+    about               -- .../about    - no root type in url
+
+
+(dashbord)
+    layout.tsx
+    dashbord
+    ** xxxxx PAGE.TSX -- WE CANNOT ADD CAUSE ERROR COMEA THAT WHY WE HAVE A ANOTHER FOLDER AS DASHBOARD. (AS 2 PARALLEL PAGES - ROOT PAGE AND OTHER IN HERE)
+
+    
+ERROR
+
+error.tsx
+global-error.tsx
+
+
+LOADING - loading.tsx
+
+
+
+API - route.tsx
+
+api 
+    db.ts
+    ______ - folder name for db
+        route.tsx                   -- async funtion GET()      - and use await fetch
+
+        [id]
+            route.tsx               -- async funtion PUT()
+                                    -- async funtion DELETE()
+
+
+
+in db
+    const ARRAY
+
+
+SEO - (metadata)
+
+STATIC META
+export const metadata{
+
+}
+Higher take in the order
+
+DYNAMIC META
